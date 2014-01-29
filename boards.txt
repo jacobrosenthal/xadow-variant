@@ -1,0 +1,22 @@
+# See: http://code.google.com/p/arduino/wiki/Platforms
+
+##############################################################
+
+Xadow.name=Seeeduino Xadow
+Xadow.upload.protocol=avr109
+Xadow.upload.maximum_size=28672
+Xadow.upload.speed=57600
+Xadow.upload.disable_flushing=true
+Xadow.bootloader.low_fuses=0xff
+Xadow.bootloader.high_fuses=0xd8
+Xadow.bootloader.extended_fuses=0xcb
+Xadow.bootloader.path=caterina
+Xadow.bootloader.file=Caterina-Xadow.hex
+Xadow.bootloader.unlock_bits=0x3F
+Xadow.bootloader.lock_bits=0x2F
+Xadow.build.mcu=atmega32u4
+Xadow.build.f_cpu=16000000L
+Xadow.build.vid=0x2886
+Xadow.build.pid=0x8003
+Xadow.build.core=xadow
+Xadow.build.variant=xadow
